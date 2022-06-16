@@ -21,21 +21,37 @@
 				</tr>
 			</tbody>
 		</table>
-		<form>
+		<form id="contact_form">
 		<table>
 			<tr>
+			<td>
+			<table>
+			<tr>
 				<td><label>Name</label></td>
-				<td><label>Message</label></td>
 			</tr>
 			<tr>
-				<td><input type="text" required></td>
-				<td><input type="text"></td>
+				<td><input type="text" name="name"required></td>
 			</tr>
 			<tr>
 				<td><label>Email</label></td>
 			</tr>
 			<tr>
-				<td><input type="email" required></td>
+				<td><input type="email" name="email" required></td>
+			<tr>
+			</table>
+			</td>
+			<td>
+			<table>
+				<tr>
+				<td><label>Message</label></td>
+				</tr>
+				<tr>
+					<td><textarea style="width:319px;height:65px;resize:none;" form="contact_form" name="message"></textarea></td>
+				</tr>
+			</table>
+			</td>
+			<td>
+				<input type="submit" name="sendMessage">
 			</tr>
 		</table>
 		</form>

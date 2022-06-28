@@ -1,6 +1,18 @@
 body
 {
+	margin:0;
 	background-color:#1D1E41;
+}
+
+.intro-div
+{
+	width:64%;
+	font-family:"Poppins";
+	font-size:250%;
+}
+
+.profile-pic-div
+{
 }
 
 .contact_fields

@@ -4,11 +4,42 @@ body
 	background-color:#1D1E41;
 }
 
+p
+{
+	margin:0;
+}
+#elipse
+{
+	position: absolute;
+	width: 1232px;
+	height: 1258px;
+	left: -616px;
+	top: -590px;
+
+	background: radial-gradient(41.34% 41.34% at 46.92% 50%, #3C42CA 0%, rgba(60, 66, 202, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+	filter: blur(200px);	
+}
 .intro-div
 {
-	width:64%;
+	position:absolute;
 	font-family:"Poppins";
-	font-size:250%;
+	font-size:60px;
+	margin-top:150px;
+	left:106px;
+	
+}
+
+#hi
+{
+	color:#51C9E5;
+	font-size:40px;
+}
+
+#tagline
+{
+	font-style:italic;
+	font-size:30px;
+	color:#51C9E5;
 }
 
 .profile-pic-div

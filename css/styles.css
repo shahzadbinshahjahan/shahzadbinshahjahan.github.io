@@ -8,6 +8,7 @@ p
 {
 	margin:0;
 }
+
 #elipse
 {
 	position: absolute;
@@ -24,7 +25,7 @@ p
 	position:absolute;
 	font-family:"Poppins";
 	font-size:60px;
-	margin-top:150px;
+	top:150px;
 	left:106px;
 	
 }
@@ -42,10 +43,53 @@ p
 	color:#51C9E5;
 }
 
-.profile-pic-div
+#resume-button
 {
+	position:relative;
+	top:50px;
+	width:170px;
+	height:55px;
+	background: linear-gradient(144.82deg, #26C35B 0.83%, #3C42CA 79.33%);
+	color:#ffffff;
+	font-size:16px;
+	border-radius: 30px;
+	border-color:none;
 }
 
+.profile-pic-div
+{
+	position:absolute;
+	top:150px;
+	left:900px;
+}
+
+.portfolio-image
+{
+	height:356px;
+	width:346px;
+}
+
+/*
+.homepage-frame
+{
+	position:absolute;
+	top:395px;
+	left:956px;
+	right:0;
+	bottom:0;
+}
+
+#bottom-elipse
+{
+	height:280px;
+	width:500px;
+	position:absolute;
+	left:-90px;
+
+	background: radial-gradient(41.34% 41.34% at 46.92% 50%, #3C42CA 0%, rgba(60, 66, 202, 0) 100%);
+	filter: blur(200px);
+}
+*/
 .contact_fields
 {
 	background-image:linear-gradient(272.49deg, #FF1CA4 -115.3%, #8B5CB6 17.24%, #2793C5 76.94%);

@@ -9,9 +9,17 @@ p
 	margin:0;
 }
 
+a
+{
+	text-decoration:none;
+}
+.home-section
+{
+	
+}
 #elipse
 {
-	position: absolute;
+	position: fixed;
 	width: 1232px;
 	height: 1258px;
 	left: -616px;
@@ -20,14 +28,54 @@ p
 	background: radial-gradient(41.34% 41.34% at 46.92% 50%, #3C42CA 0%, rgba(60, 66, 202, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 	filter: blur(200px);	
 }
+
+.menu
+{
+	position:fixed;
+	margin-top:20px;
+	left:200px;
+	z-index:10;
+	font-family:"Poppins";
+	font-size:18px;
+}
+
+#home-button
+{
+	position:absolute;
+	left: 500px;
+	color:#51C9E5;
+	/*color: radial-gradient(118.06% 1074.38% at 0% 0%, #7850CD 0%, #7850CD 92.5%, rgba(255, 255, 255, 0) 100%);*/
+
+}
+
+#about-button
+{
+	position:absolute;
+	left: 600px;
+	color:#ffffff;
+}
+
+#contact-button
+{
+	position:absolute;
+	left: 700px;
+	color:#ffffff;
+}
+
 .intro-div
 {
 	position:absolute;
 	font-family:"Poppins";
-	font-size:60px;
 	top:150px;
 	left:106px;
 	
+}
+
+.headings
+{
+	font-family:"Poppins";
+	font-size:60px;
+	color:#ffffff;
 }
 
 #hi
@@ -56,15 +104,11 @@ p
 	border-color:none;
 }
 
-.profile-pic-div
-{
-	position:absolute;
-	top:150px;
-	left:900px;
-}
-
 .portfolio-image
 {
+	position:absolute;
+	top:0;
+        left:900px;
 	height:356px;
 	width:346px;
 }
@@ -98,5 +142,23 @@ p
 
 .index-text
 {
+	color:#ffffff;
+}
+
+#about-section
+{
+	position:absolute;
+	top:100%;
+	padding:0px 50px 50px 50px;
+}
+.about-heading
+{
+	margin-bottom:50px;
+	color:#51C9E5;
+}
+.about-text
+{
+	font-family:"Poppins";
+	font-size:16px;
 	color:#ffffff;
 }

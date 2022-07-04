@@ -194,9 +194,49 @@ a
 	padding:0px 50px 50px 50px;
 
 }
+
+#contact-icons
+{
+	margin-bottom:3%;
+}
+.link-icons
+{
+	margin-right:3%;
+}
+#email
+{
+	color:#ffffff;
+	font-size:20px;
+	font-family:"Poppins";
+	margin-bottom:3%;I
+}
 .contact-fields
 {
+	border:0;
         background-image:linear-gradient(272.49deg, #FF1CA4 -115.3%, #8B5CB6 17.24%, #2793C5 76.94%);
         border-radius:25px;
+
 }
 
+.mail-fields
+{
+	margin:0 4% 1% 0;
+	color:#ffffff;
+	font-family:"Poppins";
+	font-size:16px;
+	padding:4px;
+}
+.message-text
+{
+	position:absolute;
+	width:322px;
+	height:139px;
+	resize:none;
+}
+.ping-button
+{
+	width:140px;
+	background: radial-gradient(467.65% 10747.9% at 87.72% 261.18%, #98C2FE 0%, #0C0970 100%);
+	border:0;
+	border-radius:50px;
+}

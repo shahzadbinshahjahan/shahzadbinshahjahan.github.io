@@ -69,18 +69,27 @@ Open for freelance full stack Web Development gigs.
 		<div id="contact-section">
 			<p class="headings about-contact-heading">Contact</p>
 			<div id="contact-icons">
-				<a href="https://github.com/shahzadbinshahjahan" target="_blanc"><img src="images/GitHub.svg" alt="github logo"></a>
-				<img src="images/Linkedin.png" alt="linkedin logo" height="100" width="100">
-				<img src="images/Instagram.png" alt="Instagram logo" height="100" width="100">
+				<a href="https://github.com/shahzadbinshahjahan" target="_blank"><img class="link-icons" src="images/GitHub.svg" alt="github logo"></a>
+				<img class="link-icons" src="images/Linkedin.png" alt="linkedin logo" height="100" width="100">
+				<img class="link-icons" src="images/Instagram.png" alt="Instagram logo" height="100" width="100">
+			
 			</div>
-			<a href="mailto:shahzadbinshahjahan@gmail.com">shahzadbinshahjahan@gmail.com</a>
+			<div id="email">
+				<a style="color:#ffffff" href="mailto:shahzadbinshahjahan@gmail.com">shahzadbinshahjahan@gmail.com</a>
+			</div>
 			<form id="mail-section">
-				<label>Name</label>
-				<input class="contact-fields" type="text" name="Name">
-				<label>Message</label>
-				<textarea class="message-text contact-fields" name="message"></textarea>
-				<input type="Submit" value="Ping me!">
+				<div class="mail-fields" style="margin-bottom:0">
+					<label style="margin-right:330.8833px">Name</label>
+					<label>Message</label>
+				</div>
+				
+			
+				<input class="contact-fields mail-fields" type="text" name="Name" required>
+				<textarea class="message-text contact-fields mail-fields" name="message" required></textarea>
+				<div style="display:inline-block;margin-left:30%;"><input class="mail-fields ping-button" type="Submit" value="Ping me!"></div>
+
 			</form>
+			
 		</div>	
 	</body>
 </html>

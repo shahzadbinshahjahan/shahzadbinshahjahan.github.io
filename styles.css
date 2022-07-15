@@ -48,7 +48,8 @@ a
 #home-button
 {
 	position:absolute;
-	left: 500px;
+	left:500px;
+	color:#51C9E5;
 	/*color: radial-gradient(118.06% 1074.38% at 0% 0%, #7850CD 0%, #7850CD 92.5%, rgba(255, 255, 255, 0) 100%);*/
 
 }

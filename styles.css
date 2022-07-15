@@ -40,11 +40,15 @@ a
 	font-size:18px;
 }
 
+.menu-btn
+{
+	color:#ffffff;
+}
+
 #home-button
 {
 	position:absolute;
 	left: 500px;
-	color:#51C9E5;
 	/*color: radial-gradient(118.06% 1074.38% at 0% 0%, #7850CD 0%, #7850CD 92.5%, rgba(255, 255, 255, 0) 100%);*/
 
 }
@@ -53,21 +57,21 @@ a
 {
 	position:absolute;
 	left: 600px;
-	color:#ffffff;
+	/*color:#ffffff;*/
 }
 
 #project-button
 {
 	position: absolute;
 	left:700px;
-	color:#ffffff;
+	/*color:#ffffff;*/
 }
 
 #contact-button
 {
 	position:absolute;
 	left: 820px;
-	color:#ffffff;
+	/*color:#ffffff;*/
 }
 
 .intro-div

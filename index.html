@@ -9,23 +9,22 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"> 
+
+		<script src="portfolio.js">
+                </script>
+
 	</head>
 	<body>
-		<div class="menu">
-                        <a id="home-button" href="#home-section">Home</a>
-                        <a id="about-button" href="#about-section">About</a>
-                        <a id="contact-button" href="#contact-section">Contact</a>
-                </div>
 
 		<div id="home-section">
 			<img src="images/elipse.png" alt="elipse" id="elipse">
 			<div class="menu">
-				<a id="home-button" href="#home-section" >Home</a>
-				<a id="about-button" href="#about-section" >About</a>
-				<a id="project-button" href="#project-section">Projects</a>
-				<a id="contact-button" href="#contact-section" >Contact</a>
+				<a id="home-button" class="menu-btn" href="#home-section" onclick="changeColor('home-button','menu-btn')">Home</a>
+				<a id="about-button" class="menu-btn" href="#about-section" onclick="changeColor('about-button','menu-btn')">About</a>
+				<a id="project-button" class="menu-btn" href="#project-section" onclick="changeColor('project-button','menu-btn')">Projects</a>
+				<a id="contact-button" class="menu-btn" href="#contact-section" onclick="changeColor('contact-button','menu-btn')" >Contact</a>
 			</div>
-			<div class="index-text intro-div">
+			<div class="index-text intro-div" onclick="changeColor('nation','gay')">
 				<p id="hi">Hi, I'm</p>
 				<p class="headings"> Shahzad Bin Shahjahan</p>
 		 		<p id="tagline">Web Developer, Linux enthusiast</p>

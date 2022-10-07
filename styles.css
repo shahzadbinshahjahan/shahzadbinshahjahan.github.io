@@ -1,6 +1,7 @@
 body
 {
-	background-color:#F5EFE6
+	background-color:#F5EFE6;
+	margin:0;
 }
 
 hr
@@ -11,12 +12,20 @@ hr
 	width:10%;
 }
 
+#home-section
+{
+	height:100%;
+	text-align:center;
+}
+
 #name
 {
+	margin:0;
 	color:#628E90
 }
 
 #tagline
 {
+	margin:0;
 	color:#3C2317
 }

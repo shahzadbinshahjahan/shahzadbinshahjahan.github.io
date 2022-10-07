@@ -1,0 +1,22 @@
+body
+{
+	background-color:#F5EFE6
+}
+
+hr
+{
+	border-style:dotted none none none;
+	border-color:#3C2317;
+	border-width:5px;
+	width:10%;
+}
+
+#name
+{
+	color:#628E90
+}
+
+#tagline
+{
+	color:#3C2317
+}

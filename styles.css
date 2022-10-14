@@ -66,6 +66,9 @@
 	height:35rem;
 }
 
+
+/*Responsive*/
+
 @media (max-width:950px)
 {
 	.introDescription

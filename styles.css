@@ -72,19 +72,35 @@
 @media (max-width:950px)
 {
 	.introDescription
-	{
-		padding-top:0;
+	{	
+		padding-top:4rem;
 	}	
 	.introDescription h1 
 	{
 		font-size:2.5rem;
 	}
+	.profileImg
+	{
+		margin-top:10%;
+	}
 }
 
 @media (max-width:560px)
 {
+	.introDescription
+	{
+		padding-top:3rem;
+	}
 	.introDescription h1 
 	{
 		font-size:2rem;
+	}
+}
+
+@media (max-width:400px)
+{
+	.introDescription
+	{
+		padding-top:2rem;
 	}
 }

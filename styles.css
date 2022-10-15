@@ -58,6 +58,15 @@ hr
 	cursor:pointer;
 }
 
+.navbar a
+{
+	text-decoration:none;
+}
+
+.navbar-brand:hover
+{
+	color:#6c757d !important;
+}
 /*Home Section*/
 
 .introDescription
@@ -137,6 +146,18 @@ hr
 	/*override from .projectCard img values*/
 	height:3rem !important;
 	width: 3rem !important;
+}
+
+/*About Section*/
+#aboutSection h1
+{
+	font-family: "NeueHaasMedium";
+}
+
+#aboutSection p
+{
+	font-family: "NeueHaasLight";
+	font-size:1.3rem;
 }
  
 /*Responsive*/

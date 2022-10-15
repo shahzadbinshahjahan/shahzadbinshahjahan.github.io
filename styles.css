@@ -8,6 +8,27 @@
 	margin-right:3%;
 }
 
+section
+{
+	min-height:100vh;
+}
+
+
+#projectsSection,#aboutSection,#contactSection
+{
+	padding-top:3%;
+	padding-right:10%;
+}
+
+hr
+{
+	border:0 !important;
+	margin:0;
+	border-top:3px solid !important;
+	opacity:100 !important;
+	color:#000000 !important;
+}
+
 @font-face {
 	font-family: "NeueHaasMedium";
 	src: url("fonts/NeueHaasDisplayMediu.ttf");
@@ -36,6 +57,7 @@
 }
 
 /*Home Section*/
+
 .introDescription
 {
 	padding-top:8rem;
@@ -66,7 +88,55 @@
 	margin-top:6rem !important;
 }
 
+/*Projects Section*/
+.projectsHeading h1
+{
+	font-family: "NeueHaasMedium";
+}
 
+.projects
+{
+	font-family:"NeueHaasLight";
+}
+
+.projects p
+{
+	font-size:2rem;
+	margin-bottom:2px;
+}
+
+.projectCard
+{
+	margin-top:2rem !important;
+}
+
+.projectCard img
+{
+	height:25rem;
+	width: 18rem;
+}
+
+.projectCard a
+{
+	cursor:pointer;
+}
+
+.showMoreImg
+{
+	/*override from .projectCard img values*/
+	height:2.5rem !important;
+	width:2.5rem !important;
+	margin-left:2rem;
+}
+
+.showMoreImg:hover
+{
+	cursor:pointer;
+	/*override from .projectCard img values*/
+	height:3rem !important;
+	width: 3rem !important;
+}
+ 
 /*Responsive*/
 
 @media (max-width:950px)

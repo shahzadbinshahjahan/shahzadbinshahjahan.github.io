@@ -223,6 +223,30 @@ hr
 	border-radius:0 !important;
 }
 
+.mailLink
+{
+	color:#000000;
+	text-decoration: none;
+}
+
+.mailLink:hover
+{
+	color:#6c757d;
+}
+
+.icons
+{
+	height:8%;
+	width: 8%;
+	margin-right:2%;
+}
+
+.icons:hover
+{
+	height:10%;
+	width:10%;
+}
+
 #sendBtn
 {
 	width:20%;

@@ -13,8 +13,12 @@ section
 	min-height:100vh;
 }
 
+footer
+{
+	height:10%;	
+}
 
-#projectsSection,#aboutSection,#contactSection
+#projectsSection,#aboutSection,#contactSection,.mainFooter
 {
 	padding-top:7%;
 	margin-right:10%;
@@ -261,8 +265,37 @@ hr
 	background-color: #6c757d;
 }
 
- 
+/*Footer*/
+.mainFooter
+{
+	color:#64696d;
+	padding:5% 0;
+	border-top:1.5px solid #64696d!important;
+	opacity:100 !important;
+}
+ .mainFooter a
+ {
+	color:#000000;
+ }
+ .mainFooter a:hover
+ {
+	color:#6c757d;
+ }
+
+.left, .right {
+	width: 50%; /* Floated elements technically need a width specified. */
+  }
+  
+  .left {
+	float: left;
+  }
+  
+  .right {
+	float: right;
+  }
+
 /*Responsive*/
+
 
 
 @media (max-width:950px)

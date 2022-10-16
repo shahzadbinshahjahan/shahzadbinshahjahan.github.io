@@ -110,10 +110,20 @@ hr
 	font-family:"NeueHaasLight";
 }
 
-.projects p
+.projectMainHeading
 {
-	font-size:2rem;
+	font-family:"NeueHaasLight";
+	font-size:1rem;
 	margin-bottom:2px;
+	color:#000000;
+	text-decoration: none;
+}
+
+.projectMainHeading:hover
+{
+	cursor:pointer;
+	font-size:1.2rem;
+	color:#6c757d;
 }
 
 .projectCard
@@ -125,11 +135,6 @@ hr
 {
 	height:23rem;
 	width: 16rem;
-}
-
-.projectCard a
-{
-	cursor:pointer;
 }
 
 .showMoreImg

@@ -104,7 +104,44 @@
 		</section>
 
 		<section id="contactSection">
-
+			<div>
+				<h1>Say hello</h1>
+				<hr/>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<p>Looking to start a new project or just want to say hi?Send me an email and I'll do my best to reply within 24 hrs!</p>
+					<p>If contact form aren't your thing, send me an email at shahzadbinshahjahan@gmail.com</p>
+				</div>
+				<div class="col-md-6">
+					<form name="contactform" class="contactform">
+						<div class="mb-3">
+							<label for="contactName" class="form-label">Name</label>
+							<input type="text" id="contactName" class="form-control contactformBoxColor" important>
+						</div>
+						<div class="row mb-4">
+							<div class="col">
+								<label for="inquiry" class="form-label">Inquiry</label>
+								<select class="form-select contactformBoxColor" id="inquiry" aria-label="inquiry">
+									<option value="1"selected>Job offer</option>
+									<option value="2">Clients</option>
+									<option value="3">Collaborations</option>
+									<option value="4">For a cup of chai</option>
+								</select> 
+							</div>
+							<div class="col">
+								<label for="emailInput" class="form-label">Email</label>
+								<input type="email" class="form-control contactformBoxColor" id="emailInput" placeholder="name@example.com"/>
+							</div>
+						</div>
+						<div class="form-floating mb-3">
+							<textarea class="form-control contactformBoxColor" placeholder="Hello..." id="messageArea" style="height:20%;"></textarea>
+							<label for="messageArea">Write a message here</label>
+						</div>
+						<button id="sendBtn">Send</button>
+					</form>
+				</div>
+			</div>
 		</section>
 	
 		<!--Bootstrap javascript code-->

@@ -137,7 +137,7 @@ hr
 	/*override from .projectCard img values*/
 	height:2.5rem !important;
 	width:2.5rem !important;
-	margin-left:2rem;
+	margin-left:1.5rem;
 }
 
 .showMoreImg:hover
@@ -157,7 +157,32 @@ hr
 #aboutSection p
 {
 	font-family: "NeueHaasLight";
-	font-size:1.3rem;
+	font-size:1.15rem;
+}
+
+.resumeBtn
+{
+	background-color: #000000 !important;
+	border-color:#000000 !important;
+}
+
+.resumeBtn:hover
+{
+	background-color: #6c757d !important;
+	border-color:#6c757d !important;
+	
+}
+
+.aboutImg
+{
+	margin-left:10%;
+	width:18rem;
+	height:28rem;
+}
+
+.aboutFooter p
+{
+	font-size:0.5rem;
 }
  
 /*Responsive*/

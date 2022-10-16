@@ -180,10 +180,13 @@ hr
 	height:28rem;
 }
 
-.aboutFooter p
+.aboutFooter
 {
-	font-size:0.5rem;
+	margin-top: 2rem;
+	font-size:1rem;
+	color:#6c757d;
 }
+
  
 /*Responsive*/
 
